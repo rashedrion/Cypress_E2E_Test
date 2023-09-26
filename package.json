@@ -1,0 +1,25 @@
+{
+  "name": "cypress_e2e_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js  --record --key fb12f2c3-308b-4a42-a1c3-fec27aa0768e",
+   
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashedrion/Cypress_E2E_Test.git"
+  },
+  "author": "rashed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashedrion/Cypress_E2E_Test/issues"
+  },
+  "homepage": "https://github.com/rashedrion/Cypress_E2E_Test#readme",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
+  }
+}
