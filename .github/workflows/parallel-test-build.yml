@@ -13,11 +13,11 @@ jobs:
         with:
           command: npm run test:addToCart
 
-     - name: Cypress Test Report
-       uses: actions/upload-artifact@v3
-       with:
-         name: Mochawesome HTML Report - Add To Cart
-         path: cypress/reports/html      
+      - name: Cypress Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Mochawesome HTML Report - Add To Cart
+          path: cypress/reports/html
 
   registerTest-run:
     runs-on: ubuntu-22.04
@@ -31,8 +31,8 @@ jobs:
         with:
           command: npm run test:registerTest
 
-      - name: Cypress Test Report
+     - name: Cypress Test Report
         uses: actions/upload-artifact@v3
         with:
           name: Mochawesome HTML Report - Reg Flow
-          path: cypress/reports/html      
+          path: cypress/reports/html   
