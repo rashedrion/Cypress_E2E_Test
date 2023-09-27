@@ -31,8 +31,8 @@ jobs:
         with:
           command: npm run test:registerTest
 
-     - name: Cypress Test Report
+      - name: Cypress Test Report
         uses: actions/upload-artifact@v3
         with:
           name: Mochawesome HTML Report - Reg Flow
-          path: cypress/reports/html   
+          path: cypress/reports/html
