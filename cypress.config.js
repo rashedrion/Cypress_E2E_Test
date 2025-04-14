@@ -15,4 +15,8 @@ module.exports = defineConfig({
   env: {
     URL: "https://naveenautomationlabs.com/opencart/index.php?route=account/register",
   },
+
+  {
+    "include": ["./node_modules/cypress", "cypress/**/*.js"]
+  }
 });
