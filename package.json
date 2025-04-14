@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rashedrion/Cypress_E2E_Test#readme",
   "devDependencies": {
-    "cypress": "^13.17.0",
+    "cypress": "14.3.0",
     "cypress-mochawesome-reporter": "^3.6.0"
   }
 }
